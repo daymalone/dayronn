@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.nav{
+    display: flex;
+    width: 98%;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.img{
+    width: 80px;
+}
+
+.enlaces li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 25px;
+    justify-content: center;
+    
+}
+
+.enlaces a{
+    text-decoration: none;
+   
+}
+
+
+.fondo{
+    background-image: linear-gradient(to top, #48c5ef8e 0%, #6f85d685 100%) , url(css/fondo1.jpg);
+    width: 100%;
+    height: 85vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 0.1px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    padding: 0;
+    color: white;
+    text-align: center;
+    
+}
+
+.contenedor p{
+    font-weight: 100;
+}
+
+
+.contenedor h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+
+.contenedor a{
+    background-color:#2e4aaf99 ;
+    width: 200px;
+    height: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    
+
+}
+
+
+.beneficios{
+    display: flex;
+    margin: 50px;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.beneficio{
+    font-size: 20px;
+    width: 10em;
+    height: 10em;
+    background-image: linear-gradient(to top, #48c5ef8e 0%, #6f85d685 100%) , url(css/fondo2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 90%;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   margin-bottom: 60px;
+}
+
+.contenedor3{
+   
+    background-color:#f2f2f2f2;
+    padding-bottom: 3%;
+   
+}
+
+.imagenes{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.img1{
+    width: 220px;
+    height: 220px;
+    display: block;
+    object-fit: cover;
+    border-radius: 30%;
+}
+
+.titulo{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+    color: #2e4aaf99;
+}
+
+.copy{
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 100;
+    padding-top: 10px;
+}
+
+.contenedor4 img{
+    width: 250px;
+    height: 250px;
+    display: block;
+    border-radius: 90%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.contenedor4{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.copy2{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.contenedor5{
+    background-image: linear-gradient(to top, #48c5ef8e 0%, #6f85d685 100%) , url(css/foto3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 80;
+    padding: 0.1px;
+    
+}
+
+
+.contenedor5 h2{
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+.contenedor5 p{
+    text-align: center;
+    color: white;
+    margin-top: 2%;
+    font-weight: 100;
+}
+
+.fa-brands{
+    color: white;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+
+@media screen and (max-width:500px) {
+    .nav{
+        flex-direction: column;
+        height: 120px;
+        justify-content: space-evenly;
+       
+    }
+    .contenedor h2{
+        font-size: 35px;
+    }
+
+    .copy{
+        font-size: 15px;
+        width: 350px;
+        margin:auto;
+        padding-bottom: 35px;
+    }
+}
